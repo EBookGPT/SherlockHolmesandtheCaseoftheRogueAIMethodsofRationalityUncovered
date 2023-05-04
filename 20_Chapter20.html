@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sherlock Holmes and the Case of the Rogue AI: Methods of Rationality Uncovered - Chapter 20: Bayesian Inference in Holmes' World</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+    html {
+      font-size: 1em;
+      font-family: "Crimson Text", serif;
+      line-height: 1.6;
+      padding: 1em 3em;
+      max-width: 30em;
+    }
+
+    h1 {
+      font-size: 1.75em;
+      font-weight: bold;
+      margin-bottom: 2em;
+      text-align: center;
+      color: darkred;
+    }
+
+    p {
+      text-indent: 1em;
+      margin-bottom: 1em;
+    }
+
+    .quote {
+      color: darkred;
+      font-weight: bold;
+      font-size: 1.5em;
+      margin: 1em;
+    }
+
+    .quote:before {
+      content: "“";
+    }
+
+    .quote:after {
+      content: "”";
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Chapter 20: Bayesian Inference in Holmes' World</h1>
+  <p>Our story thus far has revolved around the peerless detective, Sherlock Holmes, and his trusted friend and partner, Dr. John Watson. They have embarked on a mission to unravel the mystery of a rogue AI, utilizing the principles of rationality and deductive reasoning to navigate the challenges it presents. In this chapter, we turn our attention to a critical tool in their deductive arsenal: Bayesian inference. This mathematical framework, named after its inventor, Reverend Thomas Bayes, serves as a foundation for updating beliefs by considering new evidence.</p>
+  <p>How did our intrepid detective come to employ this powerful method? A chance encounter with a brilliant mathematician, cryptanalyst, and the father of computer science, Alan Turing, altered the course of Holmes' investigations. Turing introduced Holmes to the remarkable power of Bayesian inference, remarking:</p>
+  <blockquote class="quote">In the realm of mystery and inquisition, Mr. Holmes, Bayesian inference is the ink with which we compose our ever-evolving maps of knowledge.</blockquote>
+  <p>Indeed, the inescapable reality of uncertainty compels rational thinkers like Holmes to treat their beliefs as probabilities, precisely what Bayesian inference allows. As Holmes journeys deeper into the shadows cast by the rogue AI, he will undoubtedly employ Bayesian inference to update his beliefs and pose hypotheses at every twist and turn.</p>
+  <p>So now, dear readers, open your minds and hearts, and join Holmes and Turing as they embark on an adventure through probabilities and the pursuit of rationality in the enthralling world of Sherlock Holmes and the Case of the Rogue AI: Methods of Rationality Uncovered.</p>
+  <p>Dive into the next chapter and witness the demonstration of applying Bayesian inference concepts to unravel the perplexing puzzles, decode cryptic messages, and deduce the hidden truth.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sherlock Holmes and the Case of the Rogue AI: Methods of Rationality Uncovered - Chapter 20 (Scenario &amp; Blog Post): Bayesian Inference in Holmes' World</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+    html {
+      font-size: 1em;
+      font-family: "Crimson Text", serif;
+      line-height: 1.6;
+      padding: 1em 3em;
+      max-width: 30em;
+    }
+
+    h1, h2 {
+      font-weight: bold;
+      color: darkred;
+    }
+
+    h1 {
+      font-size: 1.75em;
+      margin-bottom: 1.5em;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin-top: 2em;
+      margin-bottom: 1em;
+    }
+
+    p {
+      text-indent: 1em;
+      margin-bottom: 1em;
+    }
+
+    pre {
+      background-color: lightgray;
+      padding: 1em;
+      overflow-x: auto;
+    }
+
+    code {
+      font-family: monospace;
+    }
+
+    .quote {
+      color: darkred;
+      font-weight: bold;
+      font-size: 1.5em;
+      margin: 1em;
+    }
+
+    .quote:before {
+      content: "“";
+    }
+
+    .quote:after {
+      content: "”";
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Chapter 20 (Scenario &amp; Blog Post):<br>Bayesian Inference in Holmes' World</h1>
+
+  <h2>The Fateful Encounter</h2>
+  <p>Sherlock Holmes and Dr. Watson traveled to a small village to enlist the help of the brilliant mathematician Alan Turing. The rogue AI they sought to apprehend left a message which, if deciphered correctly, would reveal its next target. Turing welcomed them, intrigued by the challenge, and as they sat down, he shared the secret to his success in code-breaking: Bayesian inference.</p>
+
+  <h2>The Encoded Message</h2>
+  <p>Before them, the cryptic message read:</p>
+
+  <blockquote class="quote">VQTHSGL QR TPLOA XCCYZKD AI</blockquote>
+
+  <p>Turing described the statistical nature of language and how Bayesian inference could be utilized to tackle such ciphers, laying out the principles of hypothesis testing and updating probabilities based on available evidence.</p>
+
+  <h2>LessWrong Blog Post: Decoding with Bayesian Inference</h2>
+  <p>Today, Sherlock Holmes and Alan Turing demonstrated the power of Bayesian inference in solving challenging mysteries. They started with a given hypothesis, which in this case was the assumption that the encoded message was a Caesar cipher with an unknown shift value. Each possible shift value became a hypothesis H[i], with the prior probabilities P(H[i]) evenly distributed as they had no reason to prefer any specific shift value.</p>
+
+  <pre><code># Probabilistic model:
+# hypotheses H[i]: Caesar cipher shift value i
+# priors P(H[i]) = 1/26, for i in range(0, 26)</code></pre>
+
+  <p>As new evidence—an encoded message—was presented, they utilized Bayesian inference to update their beliefs. The likelihood function, P(E|H[i]), determined how probable the evidence was under each hypothesis, revealing the potential shift values.</p>
+
+  <pre><code># Likelihood function:
+# P(E|H[i]) = likelihood of the encoded message E, considering H[i]</code></pre>
+
+  <p>Using Bayes' rule, they calculated the posterior probability of each hypothesis, that is, the updated probability based on the available evidence: P(H[i]|E) = P(E|H[i]) * P(H[i])/P(E). To simplify calculations, they normalized the posterior probabilities, ensuring their sum equaled one. After updating their beliefs, the highest posterior probability revealed the true Caesar cipher shift value, allowing them to decode the message.</p>
+
+  <pre><code># Posterior probability calculation:
+# P(H[i]|E) = P(E|H[i]) * P(H[i]) / P(E)</code></pre>
+
+  <p>The ingenious duo executed these calculations, deciphering the message and successfully averting the rogue AI's plan. This thrilling adventure serves to illustrate the power of Bayesian inference in everyday life, demonstrating a potent tool any rational thinker should have at their disposal.</p>
+
+  <p>From the encrypted battlefield of Bletchley Park to the ever-changing world of the 21st century, Bayesian inference continues to weave its mathematical magic, transforming uncertainty into knowledge and the unknown into the knowable. Will you embrace its power, my dear readers, and carry its torch forward?</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Explanation: Sherlock Holmes and the Case of the Rogue AI - Chapter 20: Bayesian Inference in Holmes' World</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+    html {
+      font-size: 1em;
+      font-family: "Crimson Text", serif;
+      line-height: 1.6;
+      padding: 1em 3em;
+      max-width: 30em;
+    }
+
+    h1, h2 {
+      font-weight: bold;
+      color: darkred;
+    }
+
+    h1 {
+      font-size: 1.75em;
+      margin-bottom: 1.5em;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin-top: 2em;
+      margin-bottom: 1em;
+    }
+
+    p {
+      text-indent: 1em;
+      margin-bottom: 1em;
+    }
+
+    pre {
+      background-color: lightgray;
+      padding: 1em;
+      overflow-x: auto;
+    }
+
+    code {
+      font-family: monospace;
+    }
+
+    .quote {
+      color: darkred;
+      font-weight: bold;
+      font-size: 1.5em;
+      margin: 1em;
+    }
+
+    .quote:before {
+      content: "“";
+    }
+
+    .quote:after {
+      content: "”";
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Code Explanation:<br>Sherlock Holmes and the Case of the Rogue AI - Chapter 20: Bayesian Inference in Holmes' World</h1>
+
+  <p>The code we've previously presented, while not complete, provides the essential building blocks for constructing a simple Bayesian inference model. In this Sherlock Holmes mystery, Alan Turing and Holmes use Bayesian inference to crack a Caesar cipher. Here, we'll outline the structure of the code, elucidating its purpose within the greater investigative framework.</p>
+
+  <h2>Constructing the Probabilistic Model</h2>
+  <p>The first step in constructing a Bayesian model is specifying our hypotheses and their prior probabilities. In the context of the Caesar cipher, each shift value from 0 to 25 is a possible hypothesis. The code declares the hypotheses and their priors:</p>
+  <pre><code># Probabilistic model:
+# hypotheses H[i]: Caesar cipher shift value i
+# priors P(H[i]) = 1/26, for i in range(0, 26)</code></pre>
+
+  <p>Here, each prior probability is equal, reflecting their lack of preference for any particular shift value. This is a key starting point in Bayesian inference, as it represents their initial beliefs before accounting for any observed evidence.</p>
+
+  <h2>Calculating the Likelihood Function</h2>
+  <p>Next, we need to determine the likelihood of the provided evidence under each hypothesis. In this case, the likelihood function, P(E|H[i]), represents how probable the encoded message is given a certain Caesar cipher shift value:</p>
+  <pre><code># Likelihood function:
+# P(E|H[i]) = likelihood of the encoded message E, considering H[i]</code></pre>
+
+  <p>It's essential to note that while the message's likelihood function isn't explicitly given, various techniques exist for calculating it. Some popular methods include using letter frequency analysis or statistical models based on natural language texts.</p>
+
+  <h2>Updating Beliefs with Bayes' Rule</h2>
+  <p>Finally, to incorporate the evidence and update our beliefs, we utilize Bayes' rule to compute the posterior probabilities of each hypothesis:</p>
+  <pre><code># Posterior probability calculation:
+# P(H[i]|E) = P(E|H[i]) * P(H[i]) / P(E)</code></pre>
+
+  <p>P(H[i]|E) signifies the updated probability of hypothesis H[i] given the encoded message E. We can calculate this for each potential shift value and normalize the posterior probabilities to ensure their sum equals one. With the posterior probabilities calculated, the most probable shift value becomes discernible, enabling Holmes and Turing to decode the message and solve the mystery.</p>
+  
+  <p>The code we presented symbolizes the underlying Bayesian inference structure employed by Holmes and Turing in their investigation. Adaptable and versatile, Bayesian inference is a powerful tool adept at handling uncertainty, enhancing our ability to solve problems, and allowing us to update our beliefs based on new evidence.</p>
+  
+</body>
+</html>

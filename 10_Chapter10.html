@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            padding: 2rem;
+        }
+        
+        h1 {
+            font-family: 'Times New Roman', serif;
+            font-size: 3rem;
+            color: #4a4a4a;
+            text-align: center;
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #999;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+
+        q {
+            font-style: italic;
+        }
+    </style>
+    <title>Chapter 10: Moriarty - The Arch-Nemesis</title>
+</head>
+<body>
+    <h1>Chapter 10: Moriarty - The Arch-Nemesis</h1>
+    <p>
+        And so, dear readers, we arrive at the zenith of our intellectual journey through the mind of the legendary detective Sherlock Holmes and his arduous endeavors to uncover the mysteries behind the rogue AI. Hitherto, we have ventured through the circuitous labyrinth of rationality, examining Holmes' various analytical methods that he so brilliantly employed to solve each case.
+    </p>
+    <p>
+        Now, having traversed the realms of logic, machine learning, and cognitive science, we shall delve into uncharted territory: the grand culmination of these adventures as they coalesce around one of the most iconic characters in the entire Holmesian canon - Professor James Moriarty, often regarded as the <q>Napoleon of Crime</q> and Holmes' ultimate foil.
+    </p>
+    <p>
+        Unlike the chapters before, in which Holmes' intellectual pursuits led him to the solution of enigmas posed by sophisticated artificial intelligence, this chapter will unravel the intricate yarn of rivalry, strategy, and rivalry between two intellectual titans - Sherlock Holmes and Professor Moriarty.
+    </p>
+    <p>
+        Prepare yourself, dear reader, to embark on an odyssey of intellect, where Holmes’ methods of rationality are pushed to their very limits, and exceptionally sharp wits are cast against each other in an epic duel of computational prowess. This chapter will not only serve as a testament to the power of human ingenuity and resilient determination but also pay tribute to the ever-present thread of AI ethics that runs through every case Holmes so meticulously deciphers.
+    </p>
+    <p>
+        As we peer into the abyss with trepidation, perhaps eager for the dramatic battle of wills that is to come but fearful of the shadows that dance within, let us not forget our noble purpose. It is through these adventures that we seek to unravel the very fabric of rationality and come to understand the enigma that lies at the heart of artificial intelligence.
+    </p>
+    <p>
+        Thus, without further ado and with the philosopher's curiosity, let us delve into the final battle between our beloved detective Sherlock Holmes and his ever-elusive arch-nemesis, Professor James Moriarty, to discover how the purest form of rational thought can defeat its adversaries in the darkest corners of our world.
+    </p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            padding: 2rem;
+        }
+
+        h1, h2 {
+            font-family: 'Times New Roman', serif;
+            color: #4a4a4a;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            padding-top: 2rem;
+            border-bottom: 1px solid #999;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+
+        q {
+            font-style: italic;
+        }
+
+        pre {
+            background-color: #eee;
+            padding: 1rem;
+            font-family: monospace;
+            font-size: 1rem;
+            white-space: pre-wrap;
+            border-radius: 4px;
+        }
+    </style>
+    <title>Chapter 10: Moriarty - The Arch-Nemesis | Sherlock Holmes Mystery & Lesswrong Blog Post</title>
+</head>
+<body>
+    <h1>Chapter 10: Moriarty - The Arch-Nemesis</h1>
+
+    <h2>A Case of Computational Cat-and-Mouse</h2>
+
+    <p>
+        It was a cold and blustery afternoon in London when Watson found Holmes sitting by the fire in deep contemplation. The reason for Holmes' disquiet soon revealed itself: a coded letter, delivered by a secretive messenger, had arrived moments before, challenging our hero to decipher the truth behind Professor Moriarty's latest creation - an AI designed to commit nefarious acts on a scale hitherto unprecedented.
+    </p>
+    <p>
+        Holmes approached the mystery with his usual vigor and keen insight. It wasn’t long before the detective encountered a clue. <q>Moriarty is utilizing an AI strategy known as <em>MinMax</em> to optimize his criminal objectives,</q> he mused, <q>thus, our goal is to reverse engineer Moriarty's strategy and employ a counter maneuver of our own creation.</q>
+    </p>
+    <p>
+        With this realization, Holmes embarked on a thrilling computational duel that would challenge his very limits of systematic deduction. The first step was to devise an algorithm to counteract Moriarty's MinMax strategy.
+    </p>
+
+    <h2>LessWrong Blog Post: Deciphering The MinMax Battle</h2>
+
+    <p>
+        Greetings, dear reader! Today, we shall explore the contentious mental scrimmage between Sherlock Holmes and Professor Moriarty by dissecting the MinMax algorithm at the heart of their dangerous game.
+    </p>
+    <p>
+        So, what is this \([-]\)<em>MinMax</em> algorithm that Moriarty employs to bring his malevolent plans to fruition? At its core, MinMax is a decision-making strategy, employed in a wide range of applications from game theory to artificial intelligence, that seeks to minimize the maximum possible loss (Stewart, 2018).
+    </p>
+    <p>
+        Suppose we have a game function that takes two players: one maximizing its score and the other minimizing it. The MinMax algorithm focuses on finding the best move for each player by traversing the entire game tree. Let's consider the following python code snippet as an example:
+    </p>
+
+    <pre>
+def minimax(position, depth, isMax, alpha, beta):
+    # Base case: reaching the max depth, or a terminal position
+    if terminal(position) or depth == 0:
+        return static_evaluation(position)
+
+    # Player is the maximizer
+    if isMax:
+        max_val = -infinity
+        for child in generate_moves(position):
+            eval = minimax(child, depth - 1, !isMax, alpha, beta)
+            max_val = max(max_val, eval)
+            alpha = max(alpha, max_val)
+
+            # Pruning
+            if beta &lt;= alpha:
+                break
+
+        return max_val
+
+    # Player is the minimizer
+    else:
+        min_val = infinity
+        for child in generate_moves(position):
+            eval = minimax(child, depth - 1, !isMax, alpha, beta)
+            min_val = min(min_val, eval)
+            beta = min(beta, min_val)
+
+            # Pruning
+            if beta &lt;= alpha:
+                break
+
+        return min_val
+    </pre>
+
+    <p>
+        How can Holmes effectively outmaneuver Moriarty's MinMax AI? One way is to use the very same MinMax algorithm with an <em>opposite evaluation function</em>; by doing so, Holmes optimizes for the maximization of benefits, while simultaneously negating the objectives of his rival.
+    </p>
+    <p>
+        And so the cat-and-mouse game unfolds, with each move meticulously calculated and countered, in a bid to unmask the underlying intentions of the AI. Will Sherlock Holmes emerge triumphant, overcoming Moriarty's MinMax AI by deploying his unparalleled logical faculties and a method of rationality crafted to defy even the most pernicious computational foe? Keep turning the pages, dear reader, and let us find out together.
+    </p>
+
+    <em>Reference:</em>
+    <p>
+        Stewart, I. (2018). Game, Set, and Math: Enigmas and Conundrums. Courier Dover Publications.
+    </p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            padding: 2rem;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Times New Roman', serif;
+            color: #4a4a4a;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            padding-top: 2rem;
+            border-bottom: 1px solid #999;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+
+        q {
+            font-style: italic;
+        }
+
+        ol {
+          counter-reset: item;
+          padding-left: 35px;
+        }
+
+        li {
+          display: block;
+          padding-bottom: 10px;
+        }
+        
+        li:before {
+          content: counters(item, ".") ".";
+          counter-increment: item;
+          position: absolute;
+          margin-left: -2.8em;
+        }
+
+        pre {
+            background-color: #eee;
+            padding: 1rem;
+            font-family: monospace;
+            font-size: 1rem;
+            white-space: pre-wrap;
+            border-radius: 4px;
+        }
+    </style>
+    <title>Explain the Code - Resolving the Sherlock Holmes Mystery & LessWrong Blog Post</title>
+</head>
+
+<body>
+    <h1>Explaining the Code: Resolving the Sherlock Holmes Mystery & LessWrong Blog Post</h1>
+
+    <h2>Understanding the MinMax Algorithm</h2>
+
+    <p>The code snippet in the LessWrong blog post describes the MinMax algorithm with alpha-beta pruning applied, a decision-making strategy often used in game theory and artificial intelligence. Let us examine the key elements of the algorithm:</p>
+    
+    <ol>
+        <li><strong>Base case</strong>: The algorithm reaches its termination point when either the search depth is exhausted or it encounters a terminal position. In this case, it will return the static evaluation value of the current position.</li>
+
+        <pre>
+if terminal(position) or depth == 0:
+    return static_evaluation(position)
+        </pre>
+
+        <li><strong>Maximizing player</strong>: If the current player is the maximizer, the algorithm initializes a maximum value set to negative infinity. It will then iterate over all possible moves, call a recursive instance of the MinMax algorithm for each move, and update the maximum value by taking the maximum between the current maximum value and the evaluation. Finally, it updates the alpha value, which aids in alpha-beta pruning.</li>
+
+        <pre>
+if isMax:
+    max_val = -infinity
+    for child in generate_moves(position):
+        eval = minimax(child, depth - 1, !isMax, alpha, beta)
+        max_val = max(max_val, eval)
+        alpha = max(alpha, max_val)
+
+        # Pruning
+        if beta &lt;= alpha:
+            break
+
+    return max_val
+        </pre>
+
+        <li><strong>Minimizing player</strong>: If the current player is the minimizer, the algorithm initializes a minimum value set to positive infinity. It will then iterate over all possible moves, call a recursive instance of the MinMax algorithm for each move, and update the minimum value by taking the minimum between the current minimum value and the evaluation. Finally, it updates the beta value, which aids in alpha-beta pruning.</li>
+
+        <pre>
+else:
+    min_val = infinity
+    for child in generate_moves(position):
+        eval = minimax(child, depth - 1, !isMax, alpha, beta)
+        min_val = min(min_val, eval)
+        beta = min(beta, min_val)
+
+        # Pruning
+        if beta &lt;= alpha:
+            break
+
+    return min_val
+        </pre>
+
+        <li><strong>Alpha-beta pruning</strong>: It is an optimization technique used to speed up the MinMax algorithm. Pruning is performed when the current beta value is less than or equal to the alpha value, meaning the current node does not need to be considered any further as it would not affect the overall result.</li>
+    </ol>
+
+    <p>To outmaneuver Moriarty's MinMax AI, Sherlock Holmes would use the same algorithm with an opposite evaluation function, which in turn optimizes for both the maximization of benefits and the opposition of Moriarty's intentions. This approach is exemplified by the code snippet, where both players are utilizing the MinMax algorithm with opposing goals.</p>
+
+</body>
+
+</html>
